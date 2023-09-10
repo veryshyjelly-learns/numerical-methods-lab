@@ -90,7 +90,6 @@ function CubicSplineInterploation(x::Vector{Float64}, y::Vector{Float64}, n::Int
 
     # Return the coefficients
     return C
-
 end
 
 CubicPol(a, b, c, d) = x -> a*x^3 + b*x^2 + c*x + d
